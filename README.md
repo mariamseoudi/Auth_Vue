@@ -1,5 +1,5 @@
-# authentication
-
+# Authentication
+A website where the user is able to register,login,view registered users on login.
 ## Technologies
 ```
 vue 2.0
@@ -12,7 +12,7 @@ mongoDB
 $ cd auth
 $ npm run server
 ```
-## Running the Website locally
+## Running the client side locally
 ```
 $ cd auth
 $ npm run serve
@@ -113,3 +113,7 @@ log: {
   [Symbol(fastify.reply.trailers)]: null,
   [Symbol(fastify.reply.startTime)]: undefined,
   [Symbol(fastify.reply.endTime)]: undefined
+  ```
+  ## Demo
+  A Demo ia available in file Demo.mov in the repo or through
+  this link:https://drive.google.com/file/d/1qPJEFIgLuomWpGRwrQ4LbuKbDDLbUHGf/view?usp=sharing
