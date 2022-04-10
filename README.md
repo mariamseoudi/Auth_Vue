@@ -1,4 +1,10 @@
-# auth
+# authentication
+
+## Technologies
+vue 2.0
+nodejs
+Fastify js
+mongoDB
 
 ## Running the server locally
 ```
@@ -55,9 +61,9 @@ log: {
   [Symbol(fastify.reply.trailers)]: null,
   [Symbol(fastify.reply.startTime)]: undefined,
   [Symbol(fastify.reply.endTime)]: undefined
-
-## look for an existing user`
 ```
+## look for an existing user
+
 ### Request
 ```
 `POST /signup `
