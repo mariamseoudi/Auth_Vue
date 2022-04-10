@@ -42,7 +42,7 @@ http://localhost:3000/users
 ```
 `POST / `
 http://localhost:3000/signup
-params:{name:String ,email:String,password}
+params:{name:String ,email:String,password:String}
 ```
 
 ### Response
@@ -68,7 +68,7 @@ log: {
 ```
 `POST /signup `
 http://localhost:3000/signup
-params:{email:String,password}
+params:{email:String,password:String}
 ```
 
 ### Response
