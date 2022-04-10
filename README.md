@@ -24,14 +24,17 @@ http://localhost:3000/users
 ### Response
 
 ```
-[{"_id":"6251fda83645918aee16b43c","name":"ahmad","email":"mm","password":"$2b$10$pccMZfhnrt9maXlag6vsr.TBS1MUvzEsgB4IxPoKeo.M.8tfXz9X6","__v":0},{"_id":"625205a961f765e804fa3bf9","name":"","email":"","password":"$2b$10$5k5c6d.4tqsUbrCJHIXUW.0bJkaX9wDQQzIvQwChRlWUL.V0Xu1OK","__v":0}]
-```
-## Create a new user
-```
+[{"_id":"6251fda83645918aee16b43c","name":"ahmad","email":"mm","password":"$2b$10$pccMZfhnrt9maXlag6vsr.TBS1MUvzEsgB4IxPoKeo.M.8tfXz9X6","__v":0},
 
+{"_id":"625205a961f765e804fa3bf9","name":"","email":"","password":"$2b$10$5k5c6d.4tqsUbrCJHIXUW.0bJkaX9wDQQzIvQwChRlWUL.V0Xu1OK","__v":0}]
+
+
+## Create a new user
+
+```
 ### Request
 ```
-`POST /signup `
+`POST / `
 http://localhost:3000/signup
 params:{name:String ,email:String,password}
 ```
@@ -52,7 +55,9 @@ log: {
   [Symbol(fastify.reply.trailers)]: null,
   [Symbol(fastify.reply.startTime)]: undefined,
   [Symbol(fastify.reply.endTime)]: undefined
-``## look for an existing user`
+``
+## look for an existing user`
+```
 ### Request
 ```
 `POST /signup `
