@@ -13,7 +13,7 @@ $ npm run serve
 
 ```
 ## Get list of users
-```
+
 
 ### Request
 ```
@@ -28,10 +28,10 @@ http://localhost:3000/users
 
 {"_id":"625205a961f765e804fa3bf9","name":"","email":"","password":"$2b$10$5k5c6d.4tqsUbrCJHIXUW.0bJkaX9wDQQzIvQwChRlWUL.V0Xu1OK","__v":0}]
 
-
+```
 ## Create a new user
 
-```
+
 ### Request
 ```
 `POST / `
@@ -55,7 +55,7 @@ log: {
   [Symbol(fastify.reply.trailers)]: null,
   [Symbol(fastify.reply.startTime)]: undefined,
   [Symbol(fastify.reply.endTime)]: undefined
-``
+
 ## look for an existing user`
 ```
 ### Request
