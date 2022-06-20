@@ -1,7 +1,6 @@
 # Authentication
 A website where the user is able to register,login,view registered users on login.
-<img width="371" alt="out2" src="https://user-images.githubusercontent.com/86028780/174603224-bdb9f2e6-279d-47f8-963b-26842925e1c3.png">
-<img width="1124" alt="out1" src="https://user-images.githubusercontent.com/86028780/174603203-ab891d66-d9bf-4f6b-a645-fb57239890f1.png">
+
 
 ## Technologies
 ```
@@ -119,4 +118,4 @@ log: {
   ```
   ## Demo
   A Demo ia available in file Demo.mov in the repo or through
-  this link:https://drive.google.com/file/d/1s_5eO2pgmAzKO_ALplTsoPBE2Hycdrcc/view?usp=sharing
+  this link:(https://drive.google.com/file/d/1qPJEFIgLuomWpGRwrQ4LbuKbDDLbUHGf/view?usp=sharing)
